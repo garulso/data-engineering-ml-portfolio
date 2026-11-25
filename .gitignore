@@ -1,0 +1,12 @@
+# Entornos y gestores
+.venv/
+.python-version
+# Datos crudos
+data/raw/
+# Secretos
+.env
+.env.local
+# OS y editores
+.DS_Store
+.vscode/
+*.swp
