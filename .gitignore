@@ -1,11 +1,15 @@
 # Entornos y gestores
 .venv/
 .python-version
-# Datos crudos
-data/raw/
+
+# Datos (ignoramos TODO el contenido de data/ EXCEPTO el ancla)
+data/*
+!data/.gitkeep
+
 # Secretos
 .env
 .env.local
+
 # OS y editores
 .DS_Store
 .vscode/
